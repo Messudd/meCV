@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    min-height: max-content;
+    background-color: rgb(45, 45, 45);
+}
+
+.navbar {
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .description {
+    position: absolute;
+    left: 8rem;
+    color: rgb(233, 123, 33);
+    top: 2rem;
+    width: 350px;
+    height: 140px;
+    border: 1px solid;
+    border-top-color: rgb(45, 45, 45);
+    border-left-color: rgb(45, 45, 45);
+    border-bottom-color: rgb(233, 123, 33);
+    border-right-color: rgb(233, 123, 33);
+    background-color: rgb(45, 45, 45);
+    box-shadow: 2px 3px 4px;
+    padding: 0.75rem;
+}
+
+.navbar .link {
+    position: absolute;
+    right: 5rem;
+    top: 3rem;
+}
+
+.link ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 .8rem;
+    padding: 5px;
+}
+
+.link ul li a {
+    color: rgb(233, 123, 33);
+    text-decoration: none;
+}
+
+.link ul li a:hover {
+    color: whitesmoke;
+}
+
+.navbar .link .btn-contact {
+    padding: 0.75rem;
+    border: 1px solid rgb(233, 123, 33);
+    border-radius: 4px;
+    background-color: rgb(233, 123, 33);
+}
+
+.navbar .link .btn-contact a {
+    color: whitesmoke;
+}
+
+.navbar .link .btn-contact:hover {
+    border: .5px solid rgb(233, 123, 33);
+    background-color: rgb(45, 45, 45);
+}
+
+body .main {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+}
+
+.first_parth {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgb(45, 45, 45);
+    border: none;
+    border-top-color: rgb(45, 45, 45);
+    border-left-color: rgb(45, 45, 45);
+    border-bottom-color: rgb(45, 45, 45);
+    border-right-color: rgb(45, 45, 45);
+    border-radius: 5px;
+    top: -2rem;
+    right: 64px;
+    width: 50%;
+    min-height: 450px;
+}
+
+.personal_info {
+    position: absolute;
+    align-items: center;
+    width: 37%;
+    min-height: max-content;
+    top: 2rem;
+    left: 0;
+    right: auto;
+    text-align: center;
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 8px;
+}
+
+.personal_info:hover {
+    border-color: rgb(233, 123, 33);
+}
+
+.personal_info ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.personal_info ul li {
+    list-style-type: none;
+    color: rgb(233, 123, 33);
+    font-size: 16px;
+    padding: 0.3rem;
+}
+
+.skills {
+    position: absolute;
+    align-items: center;
+    width: 60%;
+    min-height: 220px;
+    top: 2rem;
+    right: 0;
+    text-align: center;
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 8px;
+}
+
+.skills:hover {
+    border-color: rgb(233, 123, 33);
+}
+
+.skills ul {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills ul li {
+    display: inline-flex;
+    color: rgb(233, 123, 33);
+    font-size: 16px;
+    padding: 0.3rem;
+    margin: 0.25rem;
+}
+
+.first_parth .hobbies {
+    position: absolute;
+    align-items: center;
+    width: 55%;
+    height: 140px;
+    top: 18rem;
+    right: 0;
+    text-align: center;
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 8px;
+}
+
+.hobbies:hover {
+    border-color: rgb(233, 123, 33);
+}
+
+.first_parth .hobbies ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.first_parth .hobbies ul li {
+    display: inline-flex;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 0.3rem;
+    margin: 0.25rem;
+}
+
+.first_parth .hobbies ul li:hover {
+    color: rgb(233, 123, 33);
+}
+
+.first_parth .language {
+    position: absolute;
+    align-items: center;
+    width: 42%;
+    min-height: max-content;
+    top: 18rem;
+    left: 0;
+    text-align: center;
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 8px;
+}
+
+.language:hover {
+    border-color: rgb(233, 123, 33);
+}
+
+.first_parth .language ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.first_parth .language ul li {
+    display: inline-flex;
+    color: rgb(233, 123, 33);
+    font-size: 16px;
+    padding: 0.3rem;
+    margin: 0.25rem;
+}
+
+body .prewiev {
+    position: relative;
+    display: flex;
+    width: 50%;
+    min-height: 300px;
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(233, 123, 33);
+    align-items: center;
+    justify-content: left;
+    left: 28rem;
+    right: auto;
+}
+
+.prewiev .img_profile {
+    background: url("./mesud.jpg") center center no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    border: 3px solid rgb(233, 123, 33);
+    border-radius: 50%;
+    margin-left: 12rem;
+}
+
+.prewiev .ıntro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 5rem;
+    width: 35%;
+    height: 300px;
+}
+
+.prewiev .ıntro p.intro:first-letter {
+    font-size: 4.2em;
+    float: left;
+    line-height: 1em;
+    margin: 0.13em 0.13em 0.13em 0;
+    color: rgb(233, 123, 33);
+}
+
+.prewiev:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+body .edu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 50%;
+    min-height: 300px;
+    background-color: #373737;
+    border: 1px solid #373737;
+    box-shadow: 2px 2px 3px rgb(233, 123, 33);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    left: 28rem;
+    right: auto;
+}
+
+body .edu:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+body .ex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 50%;
+    min-height: 300px;
+    background-color: #373737;
+    border: 1px solid #373737;
+    box-shadow: 2px 2px 3px rgb(233, 123, 33);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    left: 28rem;
+    right: auto;
+}
+
+body .ex:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+body .proj {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 50%;
+    min-height: 300px;
+    background-color: #373737;
+    border: 1px solid #373737;
+    box-shadow: 2px 2px 3px rgb(233, 123, 33);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    left: 28rem;
+    right: auto;
+}
+
+body .proj:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+body .edu ul {
+    list-style-type: none;
+    position: absolute;
+    left: 3rem;
+}
+
+body .edu ul li {
+    color: whitesmoke;
+    padding: 0.4rem;
+}
+
+body .ex ul {
+    list-style-type: none;
+}
+
+body .ex ul li {
+    color: whitesmoke;
+    padding: 0.4rem;
+}
+
+body .proj ul {
+    list-style-type: none;
+}
+
+body .proj ul li {
+    color: whitesmoke;
+    padding: 0.4rem;
+}
+
+.edu h2:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-line: bold;
+}
+
+.ex h2:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-line: bold;
+}
+
+.proj h2:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-line: bold;
+}
+
+.seccond_parth {
+    position: relative;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    height: 30px;
+}
+
+.but_on {
+    position: absolute;
+    left: 28rem;
+    background-color: rgb(233, 123, 33);
+    border: 2px solid rgb(233, 123, 33);
+    box-shadow: inset 0 0 0 0 #373737;
+    transition: ease-out 0.5s;
+    font-size: 1rem;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 4px;
+    width: 50%;
+    height: 30px;
+}
+
+.but_on:hover {
+    box-shadow: inset 1050px 0 0 0 #373737;
+}
